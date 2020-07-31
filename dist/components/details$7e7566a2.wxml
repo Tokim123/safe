@@ -1,0 +1,6 @@
+<template name="details$7e7566a2">
+  <view class="_div data-v-32908a70 details"> details
+    <view bindtap="handleProxy" class="_a data-v-32908a70 home" data-eventid="{{'0'}}" data-comkey="{{$k}}">去往首页</view>
+    <view class="_ul data-v-32908a70 container log-list">{{logs}}</view>
+  </view>
+</template>

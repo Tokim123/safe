@@ -3,6 +3,7 @@ import Router from 'vue-router'
 import index from '../pages/index/index.vue'
 import logs from '../pages/logs/index.vue'
 import counter from '../pages/counter/index.vue'
+import details from '../pages/details/index.vue'
 
 Vue.use(Router)
 
@@ -22,5 +23,10 @@ export default new Router({
     name: 'counter',
     component: counter,
     alias: '/pages/counter/main'
+  }, {
+    path: '/details',
+    name: 'details',
+    component: details,
+    alias: '/pages/details/main'
   }]
 })
